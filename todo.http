@@ -1,0 +1,34 @@
+###
+
+POST http://localhost:4000/api/newtodo
+Content-Type: application/json
+
+{
+    "todo" : "Testing",
+    "detail" : "Testing"
+}
+
+###
+
+GET http://localhost:4000/api/gettodo
+
+###
+
+GET http://localhost:4000/api/gettodo/61d40c8c8e52efa2f09b1451
+
+###
+PUT http://localhost:4000/api/updatetodo/61d40c8c8e52efa2f09b1451
+Content-Type: application/json
+
+{
+    "todo" : "updating !!"
+}
+
+###
+DELETE http://localhost:4000/api/deletetodo/61d40c8c8e52efa2f09b1451
+
+###
+PUT http://localhost:4000/api/changestatus/61d40c8c8e52efa2f09b1451
+
+
+

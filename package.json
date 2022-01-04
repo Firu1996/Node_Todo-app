@@ -3,7 +3,25 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.2",
     "mongoose": "^6.1.4"
-  }
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "node_express-todo-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Firu1996/Node_Todo-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Firu1996/Node_Todo-app/issues"
+  },
+  "homepage": "https://github.com/Firu1996/Node_Todo-app#readme",
+  "description": ""
 }
